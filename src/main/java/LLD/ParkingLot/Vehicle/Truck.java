@@ -1,0 +1,8 @@
+package LLD.ParkingLot.Vehicle;
+
+public class Truck extends Vehicle{
+
+    public Truck(String licenseNumber){
+        super(VehicleSize.LARGE,licenseNumber);
+    }
+}
